@@ -234,8 +234,8 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
         <div id="cid_21" class="form-input jf-required" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_21" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span>
           
-          <input <c:if test="${elProducto.importado == 'Verdadero'}"> checked</c:if> type="radio" aria-describedby="label_21" class="form-radio validate[required]" id="input_21_0" name="q21_importado21" value="Verdadero" required="" /><label id="label_input_21_0" for="input_21_0">Verdadero</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span>
-          <input <c:if test="${elProducto.importado == 'Falso'}"> checked</c:if> type="radio" aria-describedby="label_21" class="form-radio validate[required]" id="input_21_1" name="q21_importado21" value="Falso" required="" /><label id="label_input_21_1" for="input_21_1">Falso</label></span></div>
+          <input <c:if test="${elProducto.importado == 'VERDADERO'}"> checked</c:if> type="radio" aria-describedby="label_21" class="form-radio validate[required]" id="input_21_0" name="q21_importado21" value="VERDADERO" required="" /><label id="label_input_21_0" for="input_21_0">VERDADERO</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span>
+          <input <c:if test="${elProducto.importado == 'FALSO'}"> checked</c:if> type="radio" aria-describedby="label_21" class="form-radio validate[required]" id="input_21_1" name="q21_importado21" value="FALSO" required="" /><label id="label_input_21_1" for="input_21_1">FALSO</label></span></div>
           
         </div>
       </li>
