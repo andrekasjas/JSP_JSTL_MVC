@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/productos" auth="Container" type="javax.sql.DataSource"
+	maxActive="15" maxIdle="3" maxWait="5000"
+	username="root" password="CRRxce21716"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://node83228-productos.whelastic.net/productos"></Resource>
+</Context>
